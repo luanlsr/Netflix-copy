@@ -6,68 +6,74 @@ body {
 }
 .logo img {
   height: 25px;
+  cursor: pointer;
 }
 #boxPerfil{
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  
 }
 .whoIsWatching {
   font-family: Helvetica;
   font-size: 2.6rem;
   font-style: normal;
   color: #ffffff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-top: 160px;
-  margin-bottom: 10px;
+  padding-top: 100px;
 }
 .perfil {
   display: flex;
-  align-items: center;
-  
-    
 }
-
 .conteudo {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   
-  
 }
-.conteudo:hover {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    color: white;
-    font-family: Helvetica;
-    
-  }
+
 .perfil img {
-  height: 200px;
-  border-radius: 5px;
-  margin-inline: 1.2rem;
-  
-  cursor: pointer;
-  
+    height: 200px;
+    border-radius: 8px;
+    margin-inline: 1.2rem; 
+    cursor: pointer;
 }
-
 .perfil img:hover {
-    border: 3px solid #ffffff;
-    
-    
+    border: 3px solid #ffffff;  
 }
-
 .conteudo p {
     font-family: Helvetica;
     font-size: 1.6rem;
     font-style: normal;
     color: #afafaf;
+}
+
+.conteudo:hover{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: Helvetica;  
+}
+.gerenciar{
+    font-family: Helvetica;
+    font-size: 1.6rem;
+    font-style: normal;
+    color: #afafaf;
+    border: 1px solid #afafaf;
+    width: 330px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 250px;
+    cursor: pointer;
+}
+.gerenciar:hover{
+    color: #ffffff;
+    border: 2px solid #ffffff;
 }
