@@ -3,10 +3,14 @@ body {
 }
 .logo {
   margin: 22px 0 0 53px;
+  position: absolute;
 }
 .logo img {
   height: 25px;
   cursor: pointer;
+}
+.logo img:hover{
+  height: 30px;
 }
 #boxPerfil{
   display: flex;
@@ -19,7 +23,7 @@ body {
   font-size: 2.6rem;
   font-style: normal;
   color: #ffffff;
-  padding-top: 100px;
+  padding-top: 150px;
 }
 .perfil {
   display: flex;
@@ -39,7 +43,8 @@ body {
     cursor: pointer;
 }
 .perfil img:hover {
-    border: 3px solid #ffffff;  
+    border: 3px solid #ffffff; 
+    border-collapse: separate; 
 }
 .conteudo p {
     font-family: Helvetica;
@@ -50,12 +55,12 @@ body {
 
 .conteudo:hover{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-weight: bold;
     color: #ffffff;
-    font-family: Helvetica;  
+    font-family: Helvetica;
+      
 }
 .gerenciar{
     font-family: Helvetica;
